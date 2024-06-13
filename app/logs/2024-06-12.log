@@ -1,0 +1,27 @@
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2024-06-12 12:00:18
+
+Consulta: INSERT INTO `usuarios` (nome, sobrenome, nascimento_dia, nascimento_mes, nascimento_ano, telefone, email, senha)
+            VALUES (John, Doe, 10, 6, 1992, 11934332319, teste@teste.com.br, y$dUi6rJZGzIsecud/cG1f1OCaK1wtTDoiAJejrPrR2.cOGjfEEtcRi)
+
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'teste@teste.com.br' for key 'usuarios.email'
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2024-06-12 12:00:18
+
+Consulta: INSERT INTO `usuarios` (nome, sobrenome, nascimento_dia, nascimento_mes, nascimento_ano, telefone, email, senha)
+            VALUES (John, Doe, 10, 6, 1992, 11934332319, teste@teste.com.br, y$CcnTT.bn0rHbZ65KPWNhGuMshzV.G3VNZ4BgClWU6VMAXaDcokRTS)
+
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'teste@teste.com.br' for key 'usuarios.email'
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2024-06-12 12:00:18
+
+Consulta: INSERT INTO `usuarios` (nome, sobrenome, nascimento_dia, nascimento_mes, nascimento_ano, telefone, email, senha)
+            VALUES (John, Doe, 10, 6, 1992, 11934332319, teste@teste.com.br, y$hJlyMlEWuJc/8SL0ZDKlPePObdnk6Ishes.s8Dmk23DceucBIwkpe)
+
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'teste@teste.com.br' for key 'usuarios.email'
+

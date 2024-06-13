@@ -1,0 +1,16 @@
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2024-06-13 11:37:44
+
+Consulta: SELECT criado AS `Usuario`.`criado`, data_nascimento AS `Usuario`.`data_nascimento` FROM usuarios AS `Usuario` WHERE id = 205
+
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`criado`, data_nascimento AS `Usuario`.`data_nascimento` FROM usuarios AS `Usua' at line 1
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2024-06-13 11:41:41
+
+Consulta: SELECT *.Usuario FROM usuarios AS `Usuario` WHERE id = 205
+
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.Usuario FROM usuarios AS `Usuario` WHERE id = 205' at line 1
+

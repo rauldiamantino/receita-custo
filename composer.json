@@ -1,0 +1,20 @@
+{
+    "name": "rauld/receita-custo",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        },
+        "files": [
+          [
+            "app/Config/app.php"
+          ]
+        ]
+    },
+    "authors": [
+        {
+            "name": "Raul Diamantino",
+            "email": "rauldiamantino25@gmail.com"
+        }
+    ],
+    "require": {}
+}
